@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">To do List</h1>
+    <section class="section">
+
+    <form class="todo__form">
+        <input class="todo__input" type="text" placeholder="Todo...">
+        <button>Add</button>
+    </form>
+
+    <ul class="todo__list">
+        <!-- <li class="todo">
+            <input class="todo__input-chek" type="checkbox" >
+            <span class="todo__title">Bnnma</span>
+            <button class="todo__button">Delete</button>
+        </li> -->
+    </ul>
+    <div class="btns">
+        <button class="btn-all">All <strong class="btn-all-text">0</strong></button>
+        <button class="btn-completed">Completed <strong class="btn-completed-text">0</strong></button>
+        <button class="btn-uncompleted">Uncompleted <strong class="btn-uncompleted-text">0</strong></button>
+        
+    </div>
+    <button class="clear-btn">clear</button>
+
+
+   
+    <template class="todo__template">
+
+        <li class="todo">
+            <input class="todo__input-chek" type="checkbox" >
+            <span class="todo__title">Bnnma</span>
+            <button class="todo__button">Delete</button>
+        </li>
+    </template>
+    </section>
+    <script src="./js/utils.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
